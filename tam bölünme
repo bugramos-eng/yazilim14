@@ -1,0 +1,29 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp5
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int sayi;
+            Console.WriteLine("Sayıyı Girin : ");
+            sayi = Convert.ToInt32(Console.ReadLine());
+            if (sayi % 4 == 0 && sayi % 7 == 0)
+            {
+                Console.WriteLine("Sayı 4 ve 7 ye tam bölünüyor");
+            }
+            else
+            {
+                Console.WriteLine("Sayı 4 ve 7 ye tam bölünmüyor");
+            }
+            Console.ReadKey();
+
+
+        }
+    }
+}
